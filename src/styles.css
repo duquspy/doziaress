@@ -1,0 +1,50 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body {
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.typewrite {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #8800a3;
+    color: #fff;
+    padding: 10px 20px;
+    border-width: 5px;
+    border-color: #dc2cff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px;
+    height: 70px;
+    line-height: 50px;
+}
+
+.btn a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn svg {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Hover effect for the entire button */
+.btn:hover {
+    background-color: #a100c5;
+    box-shadow: 0 0 20px #dc2cff, 0 0 30px #dc2cff, 0 0 40px #dc2cff; /* Glow effect */
+}
