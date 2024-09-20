@@ -48,3 +48,36 @@ body {
     background-color: #a100c5;
     box-shadow: 0 0 20px #dc2cff, 0 0 30px #dc2cff, 0 0 40px #dc2cff; /* Glow effect */
 }
+
+.open-sans-1 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: large;
+}
+
+#about {
+    text-align: center;
+}
+
+#about h2 {
+    -webkit-text-fill-color: #fff;
+}
+
+#about h3 {
+    text-decoration: underline;
+    color: #9f00ff;
+}
+
+#about h4 {
+    -webkit-text-fill-color: green;
+}
+
+/* Hover effect for the entire button */
+.btn:hover {
+    background-color: #a100c5;
+    box-shadow: 0 0 20px #dc2cff, 0 0 30px #dc2cff, 0 0 40px #dc2cff; /* Glow effect */
+}
