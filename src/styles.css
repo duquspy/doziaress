@@ -81,3 +81,34 @@ body {
     background-color: #a100c5;
     box-shadow: 0 0 20px #dc2cff, 0 0 30px #dc2cff, 0 0 40px #dc2cff; /* Glow effect */
 }
+
+#socials {
+    text-align: center;
+    max-width: 100%; /* Ensure images never overflow */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center; /* Center content vertically when there's empty space */
+}
+
+#socials h2 {
+    -webkit-text-fill-color: #fff;
+}
+
+#video {
+    max-width: 100%; /* Ensure images never overflow */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center; /* Center content vertically when there's empty space */
+}
+
+/*
+header svg {
+    max-width: 100%; /* Ensure images never overflow
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: /* center; Center content vertically when there's empty space
+}*/
